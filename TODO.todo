@@ -1,0 +1,21 @@
+Element:
+	â Add constructor @done (20/04/2017, 19:40:06)
+	â Add function for id @done (20/04/2017, 19:40:05)
+	â Add function for value (difference between value and innerHTML) @done (20/04/2017, 19:39:51)
+	â Add functions to add and remove children @done (20/04/2017, 19:39:50)
+	â Add function to set the parent node @done (20/04/2017, 19:39:50)
+	â Add function to get the Node value @done (20/04/2017, 19:39:49)
+	â Add function for eventListeners @done (20/04/2017, 21:41:14)
+	â Add function to add, remove and toggle classes (dynamic arguments + array) @done (21/04/2017, 19:00:33)
+	â Add function for styles (maybe convert JSON to css(?)) @done (21/04/2017, 19:41:42)
+	â Possibly custom function for making events (Possibly separate into another file)
+	â Add some kind of function to check state of radio buttons or checkboxes
+
+Testing:
+	â Add Ava support @cancelled (20/04/2017, 19:40:26)
+	â Add Jest support @done (20/04/2017, 19:40:33)
+	â Add DOM testing @done (20/04/2017, 19:40:32)
+	â Test classes @done (21/04/2017, 19:00:49)
+	â Test all types of elements (including different input elements)
+	â Test custom events
+	â Testing custom event creation (TDD)

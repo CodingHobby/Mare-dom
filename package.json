@@ -1,0 +1,65 @@
+{
+  "_from": "mare-dom",
+  "_id": "mare-dom@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-szVw6WHP6SLiTICKa7TBB9LZb7Q=",
+  "_location": "/mare-dom",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mare-dom",
+    "name": "mare-dom",
+    "escapedName": "mare-dom",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mare-dom/-/mare-dom-1.1.2.tgz",
+  "_shasum": "b33570e961cfe922e24c808a6bb4c107d2d96fb4",
+  "_spec": "mare-dom",
+  "_where": "C:\\Users\\corrado\\Documents\\Programming",
+  "author": {
+    "name": "Corrado Canepari",
+    "email": "caneparicorrado@outlook.it"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "This library is an easy peasy dom manipulation library, which borrows concepts from different ones, such as [p5.js](https://p5js.org) and [yo-yo](https://npmjs.com/package/yo-yo).",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-env": "^2.0.30",
+    "jest": "^19.0.2",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "keywords": [
+    "dom",
+    "frontend",
+    "dom-manipulation",
+    "dom-library"
+  ],
+  "main": "./src/mare-dom.js",
+  "name": "mare-dom",
+  "repository": {
+    "type": "github",
+    "url": "https://www.github.com/codinghobby/mare-dom"
+  },
+  "scripts": {
+    "build": "webpack --config lib.webpack.js",
+    "start": "webpack-dev-server --inline --hot",
+    "test": "jest --watch"
+  },
+  "version": "1.1.2"
+}
